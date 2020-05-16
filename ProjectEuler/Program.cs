@@ -6,8 +6,9 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            E1_Multiples_of_3_and_5 e1 = new E1_Multiples_of_3_and_5();
-            e1.Solution();
+            E2_EvenFibonacciNumbers e2 = new E2_EvenFibonacciNumbers();
+            e2.Solution();
+            Console.WriteLine(e2.SumOfEvenValuedTerms);
         }
     }
 }
